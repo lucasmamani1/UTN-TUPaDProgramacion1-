@@ -1,6 +1,4 @@
-nombre = (input("Ingrese su nombre: "))  
-apellido = (input("Ingrese su apellido: "))
-edad = int(input("Ingrese su edad: "))
-residencia = (input("Ingrese su lugar de residencia: "))
-
-print("Soy", nombre, apellido," de", edad," años y vivo en ", residencia)
+binario_str = "1110"
+decimal = int(binario_str, 2)
+print(f"El número binario {binario_str} en decimal es: {decimal}")
+# Salida: El número binario 1011 en decimal es: 
