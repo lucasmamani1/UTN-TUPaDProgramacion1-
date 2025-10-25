@@ -3,7 +3,7 @@ def calcular_promedio(a, b, c):
     nota2 = b
     nota3 = c
     promedio = (a+b+c)/3
-    return promedio
+    
 
 
 promedio = calcular_promedio(7,9,6)
